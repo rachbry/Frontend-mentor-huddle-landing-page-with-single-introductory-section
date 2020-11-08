@@ -32,16 +32,6 @@ h1 {
 	padding:10px 50px 10px 50px;
 	text-decoration:none;
   margin-top: 20px;
-
-}
-.button:hover {
-	background-color:hsl(300, 69%, 71%);
-  border:1px solid hsl(300, 69%, 71%);
-  color: white;
-}
-.button:active {
-	position:relative;
-	top:1px;
 }
 
 .box-2 {
@@ -61,12 +51,6 @@ i.fab {
   display: inline-block;
   margin: 6px;
   }
-
-i.fab:hover {
-  color: hsl(300, 69%, 71%);
-  border: solid hsl(300, 69%, 71%);
-  border-width: thin;
-}
 
 .illustration {
   box-sizing: border-box;
@@ -131,6 +115,17 @@ i.fab {
     text-align: left;
     }
 
+.button:hover {
+background-color:hsl(300, 69%, 71%);
+  border:1px solid hsl(300, 69%, 71%);
+  color: white;
+}
+	
+.button:active {
+	position:relative;
+	top:1px;
+}
+	
   .flex-container {
     display: flex;
     flex-direction: row;
@@ -154,6 +149,12 @@ i.fab {
       float: right;
       font-size: 1.3rem;
       }
+	
+i.fab:hover {
+  color: hsl(300, 69%, 71%);
+  border: solid hsl(300, 69%, 71%);
+  border-width: thin;
+}
 
     .illustration {
       box-sizing: border-box;
