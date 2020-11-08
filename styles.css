@@ -58,7 +58,6 @@ i.fab {
   align-items: center;
 }
 
-
 @media screen and (max-width: 479px) { /* Mobile*/
 
   body {
@@ -115,17 +114,17 @@ i.fab {
     text-align: left;
     }
 
-.button:hover {
-background-color:hsl(300, 69%, 71%);
-  border:1px solid hsl(300, 69%, 71%);
-  color: white;
-}
-	
-.button:active {
-	position:relative;
-	top:1px;
-}
-	
+    .button:hover {
+    	background-color:hsl(300, 69%, 71%);
+      border:1px solid hsl(300, 69%, 71%);
+      color: white;
+    }
+
+    .button:active {
+    	position:relative;
+    	top:1px;
+    }
+    
   .flex-container {
     display: flex;
     flex-direction: row;
@@ -149,12 +148,13 @@ background-color:hsl(300, 69%, 71%);
       float: right;
       font-size: 1.3rem;
       }
-	
-i.fab:hover {
-  color: hsl(300, 69%, 71%);
-  border: solid hsl(300, 69%, 71%);
-  border-width: thin;
-}
+
+
+    i.fab:hover {
+      color: hsl(300, 69%, 71%);
+      border: solid hsl(300, 69%, 71%);
+      border-width: thin;
+      }
 
     .illustration {
       box-sizing: border-box;
@@ -164,9 +164,7 @@ i.fab:hover {
       }
 
     .logo {
-
       width: 13rem;
       margin: 50px auto auto 5%;
-
     }
 }
